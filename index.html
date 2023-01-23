@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Аннет</title>
+    <link rel="icon" href="favicon/face.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">Анна Орлова</div>
+
+    <div class="block">
+      <div class="block-title">на связи</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="mailto:anna.orlovaa.97@gmail.com">anna.orlovaa.97@gmail.com</a>
+        </div>
+        <div class="entry">
+          <a href="http://t.me/annushka1297" target="_blank">telegram</a>
+        </div>
+        <div class="entry">
+          <a href="https://github.com/AnnOrlova" target="_blank">git</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">чем занимаюсь</div>
+      <div class="text">
+        <h1> Погружаюсь в тестирование и ищу новые проекты. Классный продукт = качественный. Давайте вместе сделаем мир информационных технологий прекраснее </h1>
+      </div>
+      
+      <div class="entry">
+        <a
+          href="https://instagram.com/a_orlovaa?igshid=YmMyMTA2M2Y="
+          target="_blank">
+          Нахожу красоту в мелочах
+        </a>
+      </div>
+      <a href="#" id="toTop">Связаться</a>     
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </body>
+</html>
